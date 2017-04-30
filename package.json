@@ -1,0 +1,9 @@
+{
+  "name": "bitbucket-pull-request-metrics",
+  "version": "0.0.1",
+  "description": "Lib for gathering metrics about BitBucket pull requests",
+  "main": "index.js",
+  "author": "Shaine Hatch <shaine@squidtree.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
