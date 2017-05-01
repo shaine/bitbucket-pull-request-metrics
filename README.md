@@ -71,6 +71,35 @@ metrics(123, (err, prMetrics) => {
 ```
 
 ### TODO
+#### General
 - Design to review one PR versus a list of PRs, maybe all currently open, and
 all for a project? Pagination?
 - Design hooks for static code analysis. Unit test coverage hook,
+
+#### BitBucket
+- Number of images (screenshots?)
+- Number of commits
+- Number of subsequent additional commits
+- Number of original author comments
+- Number of follow up comments (non-author, or replies)
+- Min/max/median comment thread length
+- Number of days in development
+- Number of approvals
+- Number of "Needs Work" reviews
+- Number of contributing reviewers (submitted some sort of PR review activity)
+    - Number of contributing reviewers who did not approve PR
+- User IDs of contributing reviewers
+- Author user ID
+- PR number, link
+- PR approval status (open/merged/declined)
+- Number of open, completed tasks
+- Min/max/median per-file LOC changes
+- Number of files changed, added, deleted, moved
+
+#### Supplemental Analysis
+- Plato LOC, complexity, bug estimate, maintainability, deltas per-file
+- Instanbul code coverage delta
+- Esprima comment density delta
+
+#### Someday/Maybe
+- Suggested PR quality score
