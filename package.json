@@ -5,5 +5,21 @@
   "main": "index.js",
   "author": "Shaine Hatch <shaine@squidtree.com>",
   "license": "MIT",
-  "dependencies": {}
+  "scripts": {
+    "mocha": "mocha ./**/*.test.js",
+    "test": "npm run mocha"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.3.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  }
 }
