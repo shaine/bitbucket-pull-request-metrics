@@ -1,7 +1,8 @@
 # bitbucket-pull-request-metrics
 
 A tool to evaluate BitBucket pull requests and report back various metrics about
-how the pull request impacts a project.
+how the pull request impacts a project. Presently, only designed to support
+JavaScript ES6 projects.
 
 ## Installation
 
@@ -72,3 +73,4 @@ metrics(123, (err, prMetrics) => {
 ### TODO
 - Design to review one PR versus a list of PRs, maybe all currently open, and
 all for a project? Pagination?
+- Design hooks for static code analysis. Unit test coverage hook,
