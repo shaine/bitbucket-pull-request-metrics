@@ -84,6 +84,7 @@ all for a project? Pagination?
 - Number of follow up comments (non-author, or replies)
 - Min/max/median comment thread length
 - Number of days in development
+- Number of days PR stayed open
 - Number of approvals
 - Number of "Needs Work" reviews
 - Number of contributing reviewers (submitted some sort of PR review activity)
