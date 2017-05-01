@@ -16,27 +16,38 @@ NOTE: This project is not currently published.
 Assuming the module was installed globally:
 
 ```bash
-$ bitbucket-pull-request-metrics --username foobar --authToken 123abc --project DEV --repo my-repo --pr 123
+$ bitbucket-pull-request-metrics \
+    --username foobar \
+    --authToken 123abc \
+    --project DEV \
+    --repo my-repo \
+    --pr 123
 ```
 
 #### Arguments
 
 **--username, -u** (string, required)
+
 User's BitBucket username.
 
 **--authToken, -t** (string, required)
+
 User's BitBucket auth token.
 
 **--project, -p** (string, required)
+
 BitBucket project's key/name.
 
 **--repo, -r** (string, required)
+
 The BitBucket project's repository which contains the pull request.
 
 **--pr** (number, required)
+
 The pull request to inspect.
 
 **--host** (string, optional)
+
 The protocol and hostname of the BitBucket server. Defaults to "https://bitbucket.org".
 
 ### Programmatic
@@ -55,7 +66,7 @@ const metrics = require('bitbucket-pull-request-metrics')({
 // Fetch details about PR 123
 metrics(123, (err, prMetrics) => {
     console.log(prMetrics);
-})
+});
 ```
 
 ### TODO
